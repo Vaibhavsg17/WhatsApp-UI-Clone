@@ -8,9 +8,12 @@ nav {
 	background: #128C7E;
 	color: #fff;
 }
-span {
 
+.d-flex {
+	background: #128C7E;
+	color: #fff;
 }
+
 /* Menu ends */
 .chart-list {
 	display: flex;
@@ -21,16 +24,11 @@ span {
 	align-items: center;
 }
 
-
 .user-img{
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
     margin: 0 1rem;
-}
-
-.person-name {
-	/*width: 500px;*/
 }
 
 .person-name h1 {
