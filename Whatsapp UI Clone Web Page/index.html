@@ -18,150 +18,338 @@
   </head>
   <body>
     <!-- NAVBAR HEADER-->
-<nav class="navbar navbar-expand-lg navbar-light ">
-  <div class="navbar-brand" href="#">WhatApp</div>
+
+<nav class="navbar navbar-expand-lg navbar-light " >
+  <div class="navbar-brand" href="#" style="align-items: center; font-size: 1.5rem !important; font-weight: bold; color: #fff;" >WhatApp</div>
   <div class="row ml-auto">
-    <div class="col" style="padding: 5px 0px  ;">
-      <span class="material-icons" style="padding: 0px 5px 0px 5px;">search</span>
+    <div class="col" style="padding: 5px 0px;">
+      <span class="material-icons" style="align-items: center; padding: 0px 15px; font-size: 1.5rem !important; ">search</span>
     </div>
-    <div class="col" style="padding: 5px 0px  ;">
-      <span class="material-icons">more_vert</span>
+    <div class="col" style="padding: 5px 0px;">
+      <span class="material-icons" style="align-items: center; padding: 0px 20px 0px 0px ; font-size: 1.5rem !important; ">more_vert</span>
     </div>
   </div>
  </nav>
-<!--    <div class=" container menu-bar" >
-    <div class="row row-cols-4 d-flex align-items-center">
-      <div class="col">
-        <span class="material-icons">photo_camera</span>
-      </div>
-      <div class="col d-flex align-items-center"><h3 style="font-size: 15px;">CHARTS</h3></div>
-      <div class="col d-flex align-items-center"><h3 style="font-size: 15px;">STATUS</h3></div>
-      <div class="col d-flex align-items-center"><h3 style="font-size: 15px;">CALLS</h3></div>
+  <nav class="sticky-top" style="padding:10px 0px 0px 0px !important;"> 
+    <div class="nav nav-tabs nav-fill" id="nav-tab tabs" role="tablist">
+        <a class="nav-item nav-link" id="nav-icon-tab" data-toggle="tab" href="#nav-icon" role="tab" aria-controls="nav-icon" aria-selected="true"><span class="material-icons" style=" font-size: 1.5rem !important; ">photo_camera</span></a>
+        <a class="nav-item nav-link active" id="nav-chats-tab" data-toggle="tab" href="#nav-chats" role="tab" aria-controls="nav-chats" aria-selected="false" style="font-size: 20px !important; font-weight: bold;">CHATS</a>
+        <a class="nav-item nav-link" id="nav-status-tab" data-toggle="tab" href="#nav-status" role="tab" aria-controls="nav-status" aria-selected="false" style="font-size: 20px !important; font-weight: bold;">STATUS</a>
+        <a class="nav-item nav-link" id="nav-calls-tab" data-toggle="tab" href="#nav-calls" role="tab" aria-controls="nav-calls" aria-selected="false" style="font-size: 20px !important; font-weight: bold;">CALLS</a>
     </div>
-  </div> -->
-<div class="d-flex bd-highlight align-items-center sticky-top" style="height: 50px;">
-  <div class="flex-fill bd-highlight" style="padding-left: 10px;"><span class="material-icons">photo_camera</span></div>
-  <div class="p-2 flex-fill bd-highlight">CHARTS</div>
-  <div class="p-2 flex-fill bd-highlight">STATUS</div>
-  <div class="p-2 flex-fill bd-highlight">CALLS</div>
+  </nav>
+
+<!-- NAVBAR ENDS -->
+
+
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-chats" role="tabpanel" aria-labelledby="nav-chats-tab">
+            <div class="container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Emma Lyman</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-3.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Austin Ellison</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Jake Rampling</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://www.animaker.com/static_2.0/img/hanukkah_maker/joseph-aaron.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Leonard  Forsyth</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://generated.photos/vue-static/home/hero/4.png" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Samantha Carr</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-7.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Rebecca  Parr</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-4.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">William  Simpson</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2M-KcXf4PmnQG8GQxFFL94btd7u1zGhy-Q&usqp=CAU" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Abigail  Scott</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://generated.photos/vue-static/home/hero/4.png" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Samantha Carr</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-7.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Rebecca  Parr</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-4.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">William  Simpson</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2M-KcXf4PmnQG8GQxFFL94btd7u1zGhy-Q&usqp=CAU" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Abigail  Scott</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">               
+                <div class="col">
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-3.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Austin Ellison</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Jake Rampling</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://www.animaker.com/static_2.0/img/hanukkah_maker/joseph-aaron.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Leonard  Forsyth</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://generated.photos/vue-static/home/hero/4.png" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Samantha Carr</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-3.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Austin Ellison</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Jake Rampling</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+                  <hr style=" background-color: #e6e6e6; margin: 5px;">
+                <div class="col">      
+                  <div class="row chart-list">
+                    <div class="person-profile">
+                      <img src="https://www.animaker.com/static_2.0/img/hanukkah_maker/joseph-aaron.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Leonard  Forsyth</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <p class="last-chat-time">12:00 pm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="nav-calls" role="tabpanel" aria-labelledby="nav-calls-tab">
+            <div class="container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="row calls-list">
+                    <div class="person-profile">
+                      <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Dad</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <a ><span class="material-icons" style="padding-left: 20px; color: #128C7E;  font-size: 1.9em !important;">videocam</span></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row calls-list">
+                    <div class="person-profile">
+                      <img src="https://media.vanityfair.com/photos/5d41c7688df537000832361b/master/w_1920,c_limit/GettyImages-945005812.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Mark Zuckerberg</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <a ><span class="material-icons" style="padding-left: 20px; color: #128C7E;  font-size: 1.8em !important;">call</span></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row calls-list">
+                    <div class="person-profile">
+                      <img src="https://pbs.twimg.com/profile_images/864282616597405701/M-FEJMZ0_400x400.jpg" alt="" class="user-img">  
+                    </div>
+                    <div class="person-name">
+                      <h1 class="persion-name-heading">Sundar Pichai</h1>
+                      <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
+                    </div>
+                    <a ><span class="material-icons" style="padding-left: 20px; color: #128C7E;  font-size: 1.8em !important;">call</span></a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+<!-- Status Section ends  -->
+
+<!-- Contact list modal -->
+<div class="navbar fixed-bottom navbar-light " style="margin:0px !important; padding:0px 30px 30px 0px !important;">
+    <a class="ml-auto"  href="#"  ><img src="/img/contact-list.png" width="90" height="90" alt="Contact-list" ></a>
+    
 </div>
-<!--     <div class="menu-bar">
-                <span class="material-icons">photo_camera</span>
-        <ul class="menu-bar__list">
-            <li class="menu-bar__list-item" onclick="changeTab(1);">Chat</li>
-            <li class="menu-bar__list-item" onclick="changeTab(2);">Status</li>
-            <li class="menu-bar__list-item" onclick="changeTab(3);">Calls</li>
-        </ul>
-    </div> -->
-<!-- Charts section -->
-<div class="container">
-  <div class="row row-cols-1">
-    <div class="col">
-      <div class="row chart-list">
-        <div class="person-profile">
-          <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" alt="" class="user-img">  
-        </div>
-        <div class="person-name">
-          <h1 class="persion-name-heading">Mukesh Ambani</h1>
-          <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
-        </div>
-        <p class="last-chat-time">12:00 pm</p>
-      </div>
-    </div>
-    <hr style="margin: 5px;">
-    <div class="col">
-      <div class="row chart-list">
-        <div class="person-profile">
-          <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" alt="" class="user-img">  
-        </div>
-        <div class="person-name">
-          <h1 class="persion-name-heading">Mukesh Ambani</h1>
-          <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
-        </div>
-        <p class="last-chat-time">12:00 pm</p>
-      </div>
-    </div>
-    <hr style="margin: 5px;">
-    <div class="col">
-      <div class="row chart-list">
-        <div class="person-profile">
-          <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" alt="" class="user-img">  
-        </div>
-        <div class="person-name">
-          <h1 class="persion-name-heading">Mukesh Ambani</h1>
-          <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
-        </div>
-        <p class="last-chat-time">12:00 pm</p>
-      </div>
-    </div>
-    <hr style="margin: 5px;">
-    <div class="col">      
-      <div class="row chart-list">
-        <div class="person-profile">
-          <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" alt="" class="user-img">  
-        </div>
-        <div class="person-name">
-          <h1 class="persion-name-heading">Mukesh Ambani</h1>
-          <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
-        </div>
-        <p class="last-chat-time">12:00 pm</p>
-      </div>
-    </div>
-    <div class="col">      
-      <div class="row chart-list">
-        <div class="person-profile">
-          <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" alt="" class="user-img">  
-        </div>
-        <div class="person-name">
-          <h1 class="persion-name-heading">Mukesh Ambani</h1>
-          <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
-        </div>
-        <p class="last-chat-time">12:00 pm</p>
-      </div>
-    </div>
-    <div class="col">      
-      <div class="row chart-list">
-        <div class="person-profile">
-          <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" alt="" class="user-img">  
-        </div>
-        <div class="person-name">
-          <h1 class="persion-name-heading">Mukesh Ambani</h1>
-          <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
-        </div>
-        <p class="last-chat-time">12:00 pm</p>
-      </div>
-    </div>
-    <div class="col">      
-      <div class="row chart-list">
-        <div class="person-profile">
-          <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" alt="" class="user-img">  
-        </div>
-        <div class="person-name">
-          <h1 class="persion-name-heading">Mukesh Ambani</h1>
-          <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
-        </div>
-        <p class="last-chat-time">12:00 pm</p>
-      </div>
-    </div>
-    <div class="col">      
-      <div class="row chart-list">
-        <div class="person-profile">
-          <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" alt="" class="user-img">  
-        </div>
-        <div class="person-name">
-          <h1 class="persion-name-heading">Mukesh Ambani</h1>
-          <p class="person-chat">Bhai Thode Paise Chahiye The...</p>
-        </div>
-        <p class="last-chat-time">12:00 pm</p>
-      </div>
-    </div>
-    <hr style="margin: 5px;">
-  </div>
-</div>
-<!-- Charts section Ends--> 
-
-
-
+<!-- Contact list modal ends-->
 
 
     <!-- Optional JavaScript; choose one of the two! -->
